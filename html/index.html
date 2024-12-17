@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Perfil</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <!-- Informação 1: Lista não ordenada com links -->
-<ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Explore</a></li>
-    <li><a href="#">Notifications</a></li>
-    <li><a href="#">Messages</a></li>
-    <li><a href="#">Profile</a></li>
-    <li><a href="#">More</a></li>
+<ul class="nav">
+    <li class="nav-link"><a href="#"><img src="../source/imgs/icons/home.png" alt="icone home">Home</a></li>
+    <li class="nav-link"><a href="#"><img src="../source/imgs/icons/explorar.png" alt="icone explorar">Explore</a></li>
+    <li class="nav-link"><a href="#"><img src="../source/imgs/icons/notifications.png" alt="icone notificação">Notifications</a></li>
+    <li class="nav-link"><a href="#"><img src="../source/imgs/icons/message.png" alt="icone menssagens">Messages</a></li>
+    <li class="nav-link"><a href="#"><img src="../source/imgs/icons/profile.png" alt="icone perfil">Profile</a></li>
+    <li class="nav-link"><a href="#"><img src="../source/imgs/icons/more.png" alt="icone mais">More</a></li>
 </ul>
 
 <!-- Informação 2: Imagem do usuário -->
-<img src="../source/imgs/Gengar(nao%20ironicamente).jpg" alt="Foto do Usuário" width="300" height="300">
+<img src="../source/imgs/profile/Gengar(nao%20ironicamente).jpg" alt="Foto do Usuário" width="64" height="64">
 
 <!-- Informação 3: Nome completo do usuário -->
 <h4>João Victor Amarante Diniz</h4>
@@ -35,7 +36,7 @@
 </ul>
 
 <!-- Informação 7: Quantidade de tweets, seguidores, seguindo -->
-<ul>
+<ul class="statistic">
     <li>97 following</li>
     <li>32 followers</li>
 </ul>
@@ -43,7 +44,7 @@
 <!-- Informação 8: Representação de tweets -->
 <section>
     <article>
-        <h5>Tzeets Tzeets & replies Media Links</h5>
+        <h5 class="publi">Tzeets Tzeets & replies Media Links</h5>
         <p><strong>Atila Iamarino</strong> @oatila Oct 21, 2021</p>
         <p>Se vai furar orçamento, dá pra voltar a financiar absorventes e a ciência? Ou só voto mesmo?</p>
         <p>
@@ -56,7 +57,7 @@
 
     <article>
         <p><strong>João Victor Amarante Diniz</strong> @Jaum1981 Jun 1, 2020</p>
-        <p>something really bad is happing in somewhere in the world .. gmail is off</p>
+        <p>something really bad is happing in somewhere in the world ... gmail is off</p>
         <p>
             <a href="#">Reply</a>
             <a href="#">Retzeet</a>
