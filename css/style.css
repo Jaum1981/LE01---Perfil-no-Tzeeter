@@ -1,0 +1,142 @@
+/*!* Estilo global *!*/
+/** {*/
+/*    background-color: white;*/
+/*    color: rgb(15, 20, 25);*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    line-height: 1.6;*/
+/*}*/
+
+/*!* Links gerais *!*/
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: rgb(15, 20, 25);*/
+/*}*/
+
+/*!* Estilo da Navegação *!*/
+/*.nav-link a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding: 10px;*/
+/*    color: rgb(15, 20, 25);*/
+/*}*/
+
+/*.nav-link img {*/
+/*    margin-right: 8px;*/
+/*}*/
+
+/*.nav-link a:hover {*/
+/*    background-color: rgba(15, 25, 20, 0.1);*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Seção Estatísticas *!*/
+/*.statistic li {*/
+/*    display: inline;*/
+/*    margin-right: 15px;*/
+/*    font-weight: bold;*/
+/*    color: rgb(15, 20, 25);*/
+/*}*/
+
+/*.statistic a {*/
+/*    font-weight: normal;*/
+/*    color: rgb(83, 100, 113);*/
+/*}*/
+
+/*.statistic a:hover {*/
+/*    text-decoration: underline;*/
+/*    color: rgb(83, 100, 113);*/
+/*}*/
+
+/*!* Seção de Publicações (Tzeets) *!*/
+/*section article {*/
+/*    padding: 15px;*/
+/*    border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*section article:hover {*/
+/*    background-color: rgba(0, 0, 0, 0.03);*/
+/*}*/
+
+/*.publi {*/
+/*    font-weight: bold;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*article p {*/
+/*    margin: 5px 0;*/
+/*}*/
+
+/*article .date {*/
+/*    color: rgb(83, 100, 113);*/
+/*    font-size: 0.9em;*/
+/*}*/
+
+/*.actions a {*/
+/*    margin-right: 15px;*/
+/*    color: rgb(83, 100, 113);*/
+/*    border-radius: 20px;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*!* Ações - Hover *!*/
+/*.actions .reply:hover {*/
+/*    background-color: rgba(29, 155, 240, 0.1);*/
+/*    color: rgba(29, 155, 240, 1);*/
+/*}*/
+
+/*.actions .retzeet:hover {*/
+/*    background-color: rgba(0, 186, 124, 0.1);*/
+/*    color: rgba(0, 186, 124, 1);*/
+/*}*/
+
+/*.actions .like:hover {*/
+/*    background-color: rgba(249, 24, 128, 0.1);*/
+/*    color: rgba(249, 24, 128, 1);*/
+/*}*/
+
+/*.actions .share:hover {*/
+/*    background-color: rgba(29, 155, 240, 0.1);*/
+/*    color: rgba(29, 155, 240, 1);*/
+/*}*/
+
+/*!* Informações do Perfil *!*/
+/*h4 {*/
+/*    color: rgb(15, 20, 25);*/
+/*    font-size: 1.2em;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*h5 {*/
+/*    color: rgb(83, 100, 113);*/
+/*    font-size: 1em;*/
+/*}*/
+
+/*ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*ul li {*/
+/*    display: inline;*/
+/*    margin-right: 15px;*/
+/*}*/
+
+/*button {*/
+/*    background-color: rgb(29, 155, 240);*/
+/*    color: white;*/
+/*    padding: 8px 12px;*/
+/*    border: none;*/
+/*    border-radius: 20px;*/
+/*    cursor: pointer;*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: rgba(29, 155, 240, 0.8);*/
+/*}*/
