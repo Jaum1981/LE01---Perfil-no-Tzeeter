@@ -1,0 +1,300 @@
+/* Estilo global */
+* {
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Links gerais */
+a {
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+/* Estilo da Navegação */
+.nav-link a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: rgb(15, 20, 25);
+}
+
+.nav-link img {
+    margin-right: 8px;
+}
+
+.nav-link a:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+
+/* Seção Estatísticas */
+.statistic li {
+    display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+
+.statistic a {
+    font-weight: normal;
+    color: rgb(83, 100, 113);
+}
+
+.statistic a:hover {
+    text-decoration: underline;
+    color: rgb(83, 100, 113);
+}
+
+/* Seção de Publicações (Tzeets) */
+section article {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+section article:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.publi {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+article .date {
+    color: rgb(83, 100, 113);
+    font-size: 0.9em;
+}
+
+.actions a {
+    margin-right: 15px;
+    color: rgb(83, 100, 113);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* Ações - Hover */
+.actions .reply:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.actions .retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+
+.actions .like:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
+
+.actions .share:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+/* Informações do Perfil */
+h4 {
+    color: rgb(15, 20, 25);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+h5 {
+    color: rgb(83, 100, 113);
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: rgba(29, 155, 240, 0.8);
+}
+
+/* Coluna 1 */
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Coluna 2 */
+.col-2 {
+    background: #fff;
+    padding: 20px;
+}
+
+/* Coluna 3 */
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Campo de busca */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(239, 243, 244);
+    padding: 8px 12px;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex-grow: 1;
+    padding: 8px 12px;
+    font-size: 1em;
+    color: rgb(15, 20, 25);
+    border-radius: 20px;
+}
+
+.search-bar img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+/* Área de sugestões */
+.suggestions {
+    background-color: rgb(239, 243, 244);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.suggestion-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.suggestion-item img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.suggestion-item .profile-name {
+    flex-grow: 1;
+}
+
+.suggestion-item .follow-button {
+    padding: 6px 12px;
+    border-radius: 25px;
+    background-color: rgb(239, 243, 244)
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.suggestion-item .follow-button:hover {
+    background-color: rgb(239, 243, 244)
+}
+
+/* Link para ver mais sugestões */
+.suggestions .see-more {
+    text-align: center;
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.suggestions .see-more:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Ocultar a coluna da direita (celulares) */
+    .col-3 {
+        display: none;
+    }
+
+    /* Para a coluna da esquerda  ocultar o texto e mostrar apenas os ícones */
+    .col-1 .nav-link a span {
+        display: none;
+    }
+
+    .col-1 .nav-link a {
+        justify-content: center;
+    }
+
+    .col-1 .nav-link img {
+        width: 24px;
+        height: 24px; 
+    }
+
+    /* Ocultar texto */
+    .nav-link a {
+        justify-content: center;
+    }
+
+    .nav-link img {
+        margin-right: 0;
+    }
+
+    .nav-link span {
+        display: none;
+    }
+
+    /* mostrar apenas o ícone */
+    .btn-tzeet {
+        padding: 8px;
+        font-size: 0;
+    }
+
+    .btn-tzeet:before {
+        content: "\f0e0";
+        font-size: 20px;
+        color: white;
+    }
+}
